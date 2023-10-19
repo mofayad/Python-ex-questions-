@@ -1,0 +1,5 @@
+txt=input("Entrer des caractères:")
+R=input("Entrez le caractère à remplacer:")
+NV=input("Entrez le nouveau caractère:")
+nouveau_txt=txt.replace(R, NV)
+print(f"La chaîne modifiée est : {nouveau_txt}")
